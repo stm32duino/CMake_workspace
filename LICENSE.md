@@ -1,7 +1,8 @@
-The examples provided in this repository (.ino files) have their own copyright notices.
-- sketchbook/Blink/Blink.ino: license embedded at the top of the file
-- sketchbook/I2Ctemp/I2Ctemp.ino: cf. libraries/Temperature_LM75_Derived
-- sketchbook/Fusion6X_IKS01A2/Fusion6X_IKS01A2.ino: cf libraries/MotionFX
+Some examples provided in this repository (.ino files) have their own copyright notices.
+The license for the following files are embedded at the top of them:
+- sketchbook/1_Blink/1_Blink.ino
+- sketchbook/3_ButtonMouseControl/3_ButtonMouseControl.ino
+- sketchbook/4_DumpFile/4_DumpFile.ino
 
 For the remainder of the repo, the following license applies:
 
