@@ -65,7 +65,8 @@ build_sketch(TARGET "4_DumpFile"
   4_DumpFile.ino
 
   DEPENDS
-  SD SPI
+  SD
+  SPI
 )
 
 # STEP 4: optional features
