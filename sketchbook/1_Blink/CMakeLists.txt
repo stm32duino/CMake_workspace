@@ -3,7 +3,12 @@ cmake_minimum_required(VERSION 3.21)
 # STEP 1: set up bases of environment
 # -----------------------------------------------------------------------------
 
-list(APPEND CMAKE_MODULE_PATH "$ENV{HOME}/Arduino_Core_STM32/cmake")
+file(REAL_PATH "~/Arduino_Core_STM32" CORE_PATH EXPAND_TILDE)
+file(TO_CMAKE_PATH "${CORE_PATH}" CORE_PATH)
+
+list(APPEND CMAKE_MODULE_PATH ${CORE_PATH}/cmake)
+set(CMAKE_TOOLCHAIN_FILE toolchain)
+
 set(CMAKE_TOOLCHAIN_FILE toolchain)
 
 project("Blink_project")
