@@ -23,6 +23,7 @@ set_board("${BOARDNAME}"
   USB HID
   # XUSB FS
   # VIRTIO disabled
+  # BOOTLOADER dfuo / dfu2 / hid
 )
 
 include(overall_settings)

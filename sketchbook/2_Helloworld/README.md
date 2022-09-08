@@ -15,6 +15,7 @@ set_board("NUCLEO_L433RC_P"
   # USB none
   # XUSB FS
   # VIRTIO disabled
+  # BOOTLOADER dfuo / dfu2 / hid
 )
 
 include(overall_settings)

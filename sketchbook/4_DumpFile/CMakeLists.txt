@@ -37,6 +37,7 @@ set_board("${BOARDNAME}"
   # USB none
   # XUSB FS
   # VIRTIO disabled
+  # BOOTLOADER dfuo/dfu2/hid
 )
 
 include(overall_settings)
