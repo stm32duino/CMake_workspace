@@ -1,6 +1,6 @@
 # Arduino_Core_STM32 with CMake: examples
 
-This repo contains examples to illustrate how to build a skech with [the STM32 core using CMake](https://github.com/massonal/Arduino_Core_STM32).
+This repo contains examples to illustrate how to build a skech with [the STM32 core using CMake](https://github.com/stm32duino/Arduino_Core_STM32).
 
 You are encouraged to take the CMakeLists.txt found in the sketches as templates and reuse them in your own.
 

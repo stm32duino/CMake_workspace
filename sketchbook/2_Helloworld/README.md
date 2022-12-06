@@ -35,7 +35,7 @@ overall_settings(
 ```
 
 This is meant to give an overview of the available switches, although the default values are still in place.
-The meaning of each switch is documented [on the wiki](https://github.com/massonal/Arduino_Core_STM32/wiki/Functions-reference#overall_settings).
+The meaning of each switch is documented [on the wiki](https://github.com/stm32duino/wiki/wiki/Functions-reference#overall_settings).
 Also, for those keywords that take an argument, usual values for the arguments are listed there.
 
 As an exercise, you can try to uncomment the line `SERIAL generic` in the `set_board()` call.
@@ -48,7 +48,7 @@ You can also play with the diverse switches of `overall_settings()` in this fash
 
 Another point of interest is the `insights()` function at the end of the file.
 The role of this function is to produce graphs to illustrate the build process: CMake generation, compilation, linking.
-The documentation for this function is available [here](https://github.com/massonal/Arduino_Core_STM32/wiki/Functions-reference#insights).
+The documentation for this function is available [here](https://github.com/stm32duino/wiki/wiki/Functions-reference#insights).
 These graphs may be useful to understand the complete structure of the project, or to understand where such or other symbol came from.
 
 As documented, however, enabling these insights can slow the build significantly (however, just calling the fuction without enabling any insight is harmless).
