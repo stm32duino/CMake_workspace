@@ -8,7 +8,7 @@ The examples are numbered, going from most basic to illustrating the most advanc
 All the examples are built for an STM32 L433RCT6P (identified as "NUCLEO_L433RC_P").
 Other STM32 boards may, of course, be used, provided they support the relevant features.
 
-Documentation about the CMake framewok is available [here](https://github.com/stm32duino/wiki/wiki/CMake_presentation).
+Documentation about the CMake framewok is available [here](https://github.com/stm32duino/Arduino_Core_STM32/wiki/CMake-presentation).
 Documentation about CMake itself is available [there](https://cmake.org/cmake/help/latest/index.html).
 
 Feedback, questions and comments are welcome! Feel free to open an issue or a PR.
